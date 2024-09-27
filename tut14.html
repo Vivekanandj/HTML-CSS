@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Elements selector */ 
+        p{
+            border: 2px solid royalblue;
+        }
+        /* Class selector */ 
+        .redElement {
+            color: blueviolet;
+        }
+        .bgBlue{
+            background-color: aqua;
+        }
+        /* ID selector */ 
+        #firstPara{
+            color: chocolate;
+        }
+        /*this grouping selectors*/
+        footer,span{
+            background-color: goldenrod;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CSS Selectors</h3>
+    <p id="firstPara">This is a simple paragraph to demonstrat CSS Selectors</p>
+    <p id="secondPara" class="redElement bgBlue">This is another simple paragraph to demonstrat CSS Selectors</p>
+    <div>
+       <p>This is yet another simple paragraph inside div to demonstrat CSS Selectors</p>
+       <span>This is span</span>
+    </div>
+    <footer>This is footer</footer>
+</body>
+</html>
